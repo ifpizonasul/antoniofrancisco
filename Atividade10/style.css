@@ -1,0 +1,31 @@
+h1{
+	text-align: center;
+}
+
+.imagem{
+    border: 1px solid black;
+	background: white;
+	width: 270px;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+
+}
+
+    #conteudo{
+    background: #d5d4d7;
+    border: 1px solid black;
+    width: 940px;
+    float: left;
+    display: block;
+    margin-left: 200px;
+
+
+    }
+
+    p{
+
+    text-align: justify;
+    padding: 30px;
+    clear: both;
+    }
