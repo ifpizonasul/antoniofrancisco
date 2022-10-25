@@ -14,7 +14,7 @@ h1{
 
     #conteudo{
     background: #d5d4d7;
-    border: 1px solid black;
+    border: 1px solid black;<br/>
     width: 940px;
     float: left;
     display: block;
