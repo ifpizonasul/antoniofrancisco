@@ -1,0 +1,53 @@
+#menu{
+	background-color: red;
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	text-align: center;
+} 
+#header{
+	background-color: blue;
+	height: 80px;
+	position: absolute;
+	width: 100%;
+	top: 47px;
+	text-align: center;
+
+
+}
+
+#secao{
+
+	float: left;
+
+}
+
+#content{
+	background-color: green;
+	position: absolute;
+	width: 70%;
+	height: 500px;
+	top: 125px;
+	text-align: center;
+
+
+}
+
+#side{
+	background-color: yellow;
+	position: absolute;
+	width: 30%;
+	height: 500px;
+	top: 125px;
+	left: 950px;
+	text-align: center;
+
+}
+#footer{
+	text-align: center;
+	width: 100%;
+	position: absolute;
+	background-color: gray;
+	top: 600px;
+
+}
