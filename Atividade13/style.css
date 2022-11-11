@@ -1,0 +1,18 @@
+.pessoa {
+       	color: red;
+    }
+.pessoa[data-idade="30"]{
+    color: blue;
+    }
+
+.pessoa::before{
+     content:" nome " ;
+    }
+    	
+    
+.pessoa::after {
+
+    content:  " - Idade: "attr(data-idade)"Anos""-CPF: "attr(data-cpf);
+}
+
+ 
