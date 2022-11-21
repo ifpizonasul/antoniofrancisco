@@ -1,0 +1,69 @@
+.box {
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	background: url(../imagens/camera.png);
+	float: left;
+	margin: 20px;
+}
+
+.box h1{
+	background:rgba(200, 200, 200, 0.5);
+	text-align: center;
+	text-shadow: 2px 2px red;
+	margin: 5px;
+}
+
+.box p{
+	color: white;
+	text-align: justify;
+	padding: 10px;
+}
+
+.box1 {
+	width: 300px;
+	height: 300px;
+	box-sizing: border-box;
+	border: 1px solid black;
+	float: left;
+	background: repeating-linear-gradient(yellow, red);
+	margin: 20px;
+}
+
+.box1 h1{
+	background:rgba(200, 200, 200, 0.5);
+	text-align: center;
+	text-shadow: 2px 2px red;
+	margin: 5px;
+}
+
+.box1 p{
+	color: white;
+	text-align: justify;
+	padding: 10px;
+}
+    
+ #box2 {
+ 	width: 300px;
+ 	height: 300px;
+ 	border: 1px solid black;
+ 	float: left;
+ 	background: repeating-linear-gradient(yellow, red,blue, gray);
+ 	margin: 20px;
+ }
+    
+   #box3{
+   	width: 100%;
+ 	height: 200px;
+ 	border: 1px solid black;
+ 	float: left;
+ 	background: repeating-radial-gradient(red, yellow, green);
+ 	margin: 20px;
+
+   }
+     
+
+
+
+       
