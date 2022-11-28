@@ -1,0 +1,223 @@
+
+#conteudo {
+    width: 1400px;
+    height: 850px;
+    position: relative;
+    float: left;
+    margin: 20px;
+    border: 1px gray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px gray;
+    top: 80px;
+    background: linear-gradient(to bottom right, white, rgb(251, 248, 155), rgb(199, 243, 6));
+}
+
+#conteudo header {
+    position: fixed;
+    background: rgba(39, 151, 84, 0.815);
+    top: 0px;
+    width: 1400px;
+    height: 110px;
+    z-index: 10;
+    
+}
+
+#pri {
+    position: relative;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: yellow;
+    text-shadow: 4px 4px white;
+    left: 20px;
+    top: 10px;
+}
+
+#seg {
+    position: relative;
+    font-size: 70px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: blue;
+    text-shadow: 4px 4px white;
+    left: 20px;
+    top: 10px;
+}
+
+
+#conteudo header a{
+    position: relative;
+    color: blue;
+    float: right;
+    font-size: 24px;
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+    text-decoration: none;
+    top: -40px;  
+}
+#conteudo header a:hover{
+    background-color: yellow;
+    color: green;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+.esquerda {
+    background: url(../imagens/mascotesquerdo.jpg);
+    float: left;
+    width: 370px;
+    height: 620px;
+    position: relative;
+    top: 100px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 10px rgb(150, 147, 147);
+    border-radius: 10px;
+}
+
+.principal {
+    background: url(../imagens/mascotecopa.jpg);
+    position: relative;
+    float: left;
+    width: 570px;
+    height: 620px;
+    top: 100px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 10px rgb(162, 157, 157);
+    border-radius: 10px;
+    
+}
+.direita {
+    background: linear-gradient(green, yellow );
+    position: relative;
+    float: left;
+    width: 370px;
+    height: 620px;
+    top: 100px;
+    margin: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+    box-shadow: 15px 15px 10px rgb(168, 160, 160);
+    top: 80px;
+    border-radius: 10px;
+}
+.direita h1{
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 2px 2px 2px yellow;
+    border-radius: 10px;
+}
+
+#rodapecentral {
+    position: relative;
+    height: 50px;
+    bottom: -720px;
+}
+
+#rodapecentral p{
+    position: relative;
+    top: -600px;
+    float: right;
+    margin-right: 600px;
+    font-size: 20px;
+}
+
+img {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    float: left;
+    margin: 10px;
+}
+
+ h1 {
+    position: relative;
+    background: rgba(77, 76, 71, 0.5);
+    width: 100%;
+    height: 50px;
+    top: -10px;
+}
+
+.principal footer {
+    position: relative;
+    bottom: -200px;
+    color: blue;
+}
+
+.datacentral {
+    position: relative;
+    right: 950px;
+    color: blue;
+    font-size: 20px;
+    top: 20px;
+    
+}
+.data {
+    position: relative;
+    top: -290px;
+    float: right;
+    color: blue;
+    font-size: 20px;
+}
+
+.principal .data{
+    position: relative;
+    top: -20px;
+    font-size: 20px;
+    left: -300px;
+}
+
+p{
+    padding: 10px;
+    text-align: justify;
+}
+.principal footer {
+    position: relative;
+    bottom: -180px;
+    color: blue;
+}
+
+footer{
+    color: blue;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.esquerda h1{
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 2px 2px 2px yellow;
+    border-radius: 10px;
+}
+
+.principal h1{
+    position: relative;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 26px;
+    text-align: center;
+    text-shadow: 2px 2px 2px yellow;
+    border-radius: 10px;
+}
+
+fieldset{
+    margin: 50px;
+    width: 700px;
+    background: linear-gradient(to bottom right, yellow, green );
+}
+legend{
+    color: blue;
+    font-size: 24px;
+}
