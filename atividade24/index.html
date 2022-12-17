@@ -1,98 +1,47 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta lang="en">
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Imagens responsivas e Imagens não responsivas</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Modal</title>
 
-	<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
-	<script src="bootstrap/js/bootstrap.min.js"></script>
-	<link rel="stylesheet" type="text/css" href="csst/style.css">
-	<link rel="stylesheet" type="text/css" href="csst/normalize.css">
-
+  <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+  <script src="bootstrap/js/bootstrap.min.js"></script>
 </head>
 <body>
 
-	<div class="container conteudo">
 
-		<div class="row linha">
-			<div class="col-sm-6 coluna">
-				<h1>Imagem responsiva</h1>
-				<img src="imagens/uvas.png" class="img-responsive">
-			</div>
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">
+  Clique Aqui
+</button>
 
-			<div class="col-sm-6">
-				<h1>Imagem nao responsiva</h1>
-				<img src="imagens/uvas.png">
-			</div>
-			
-		</div>
-		<hr>
+<form class="modal fade" id="Modal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Efetuar login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
 
-		<div class="row">
-			<div class="col-sm-12">
-				<h1>forma de imagens</h1>
-				<img src="imagens/uvas200.png" class="rounded-circle" >
-				<img src="imagens/uvas200.png" class="rounded" >
-			</div>
-		</div>
+      <div class="form-group">
+          <input type="email" class="form-control" id="email" placeholder="digite seu email">
+        </div>
+        <br>
 
-		<br>
+      <div class="form-group">
+          <input type="password" class="form-control" id="senha" placeholder="digite sua senha">
+        </div>
 
-		<div class="row perfil">
-			<div class="col-sm-12">
-				<h1>Perfil</h1>
-			</div>
-
-			<div class="row">
-			<div class="col-sm-12 col-md-6">
-				<img src="imagens/uvas.png" class="usuario rounded-circle">
-			</div>
-		</div>
-
-			<div class="row">
-				<div class="col-sm-12 ">
-					<h3>Nome usuario</h3>
-					<h4>Software</h4>
-				</div>
-			</div>
-
-			<div class="row g-2">
-				<div class="col-sm-6 col-md-6 l1">
-					<p>amigos</p>
-				</div>
-				<div class="col-sm-6 col-md-6 l2">
-					<p>quantidade</p>
-				</div>
-			</div>
-				
-			<div class="row g-2">
-				<div class="col-sm-6 col-md-6 l1">
-				<p>amigos</p>	
-				</div>
-				<div class="col-sm-6 col-md-6 l2">
-				<p>quantidade</p>	
-				</div>
-			</div>
-				
-			<div class="row g-2">
-				<div class="col-sm-6 col-md-6 l1">
-					<p>amigos</p>
-				</div>
-				<div class="col-sm-6 col-md-6 l2">
-					<p>quantidade</p>
-				</div>
-			</div>
-	
-			<div class="button">
-				<button class="btn btn-primary">entrar</button>
-			</div>
-				<br><br>
-
-		</div>
-		
-
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cancelar</button>
+        <button type="button" class="btn btn-primary">entrar</button>
+      </div>
+    </div>
+  </div>
 </div>
+
+
 </body>
 </html>
