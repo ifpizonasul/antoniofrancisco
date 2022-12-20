@@ -1,0 +1,44 @@
+.i1 {
+    width: 640px;
+    height: 600px;
+}
+.i2 {
+    box-sizing: border-box;
+    width: 640px;
+    height: 190px;
+}
+.i3 {
+    position: relative;
+    box-sizing: border-box;
+    height: 200px;
+}
+.i4 {
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+    height: 200px;
+}
+.i5 {
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+    height: 200px;
+}
+
+.i6 {
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+    height: 200px;
+}
+
+.i7 {
+    position: relative;
+    box-sizing: border-box;
+    width: auto;
+    height: 200px;
+}
+.conteudo {
+    box-sizing: border-box;
+    border: 1px solid black;
+}
