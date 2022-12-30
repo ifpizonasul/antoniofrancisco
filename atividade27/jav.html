@@ -1,0 +1,96 @@
+<!DOCTYPE HTML>
+<html lang="pt-br">
+	<head>
+		<meta charset="UTF-8">
+
+		<title>Divs</title>
+
+		<!-- bootstrap - link cdn -->
+    <!-- Bootstrap CSS 4.0.0 -->
+    <link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" 
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+          crossorigin="anonymous">
+
+		<!-- jquery -->
+		 <script src="https://code.jquery.com/jquery-3.6.2.min.js"></script>
+
+		<script type="text/javascript">
+
+		 $(document).ready(function(){
+		 	$('.caixa').click(function(){
+		 		$(this).hide();
+
+
+		 	});
+
+		 	$('#btn1').click(function(){
+		 		$('#caixa01').show();
+
+
+		 	});
+
+		 	$('#btn2').click(function(){
+		 		$('#caixa02').show();
+
+
+		 	});
+
+
+		 		
+		 });
+		
+
+		</script>
+
+	</head>
+
+
+
+
+
+
+
+	<body>
+		
+		<div class="container">
+
+			
+
+			<div class="jumbotron">
+				<h1>EVENTOS COM JQUERY</h1>
+			</div>
+
+			<hr />
+
+			<div class="row">
+		
+<div class="col-md-6">
+
+	<div id="caixa01" style="height: 100px; width: 150px; margin: 10px; background:#428bca;" class="caixa float-left">Caixa
+	</div>
+
+		<div id="caixa02" style="height: 100px; width: 150px;margin: 10px; background:#428bca;" class="caixa float-left">Caixa
+
+	</div>
+	<button id="btn1">button1</button>
+  <button id="btn2">button2</button>
+	
+
+ </div>
+ 
+
+
+
+		</div>
+
+			
+ 		</div>
+
+
+
+
+
+
+</body>
+</html>
